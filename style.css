@@ -81,3 +81,187 @@ ul ul{
     border:1px solid #ccc;
     border-radius: 3px;
 }
+
+.venue-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top:1.5em;
+}
+
+.venue-table th{
+    background-color: #3498db;
+    color: white;
+    padding: 0.75em 1em;
+    text-align: left;
+    font-size: 1.05em;
+}
+
+.venue-table td{
+    padding: 0.75em 1em;
+    border-top: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+
+.venue-table tr:nth-child(even){
+    background-color: #eaf4fc;
+}
+
+.venue-table tr:hover {
+    background-color: #eaf4fc;
+    transition: background-color 0.2s ease;
+}
+
+section.harmonogram{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em 1em;
+    text-align: center;
+}
+
+.date{
+    font-size: 1.05em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+ul.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 500px;
+    width:100%;
+}
+
+.item{
+    display:flex;
+    justify-content: space-between;
+    padding: 12px 18px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sport{
+    font-weight: 600;
+}
+
+.status{
+    color: #555;
+    font-size: 0.9rem;
+}
+
+table.kalendarz{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5em;
+}
+
+table.kalendarz th,table.kalendarz td{
+    border: 1px solid #ccc;
+    padding: 4px 6px;
+    font-size: 1.05em;
+}
+
+table.kalendarz th{
+    background-color: #3498db;
+    color: white;
+}
+
+.otwarcie{
+    background: rgb(32, 212, 32);
+}
+
+.medale{
+    background: orange;
+}
+
+.zakonczenie{
+    background: red;
+}
+
+.zawody{
+    background: lightskyblue;
+}
+
+.finaly{
+    background: yellow;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* proporcje 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin-top: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+.mascot-image img{
+    max-width: 100%;
+    width:100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5em;
+}
+
+#medal-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.75em 1em;
+}
+
+.medal-table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    background-color:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    margin-top:1.5em;
+}
+
+.medal-table th, .medal-table td{
+    border:1px solid #ccc;
+    padding:0.75em 1em;
+    font-size: 1.05em;
+}
+
+.medal-table th{
+    background-color:#3498db;
+    color:white
+}
+
+.medal-table td:nth-child(3){
+    background-color:gold;
+}
+
+.medal-table td:nth-child(4){
+    background-color:silver;
+}
+
+.medal-table td:nth-child(5){
+    background-color:#977547;
+}
