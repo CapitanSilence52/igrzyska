@@ -184,8 +184,6 @@ async function init() {
   await preloadSheetData();
   await loadMedals(sheetUrl2);
   await loadSection("wstęp")
-//  await loadSheetData();
-//  await loadMedals(sheetUrl2);
 }
 
 init();
